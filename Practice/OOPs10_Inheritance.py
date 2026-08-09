@@ -20,7 +20,7 @@ class Person:
     def __init__(self,name,age):
         self.name=name
         self.age=age
-    def displayb(self):
+    def display(self):
         print("Name:",self.name)
         print("Age:",self.age)    
 class Student(Person):
@@ -34,5 +34,5 @@ class Student(Person):
         print("Branch:",self.branch)
           
 S1=Student("Prakayush",18,10,"AIML")    
-S1.displayb()         
+S1.display()         
 S1.display()              
