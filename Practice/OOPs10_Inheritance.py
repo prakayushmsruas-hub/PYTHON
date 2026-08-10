@@ -35,4 +35,5 @@ class Student(Person):
           
 S1=Student("Prakayush",18,10,"AIML")    
 S1.display()         
-S1.display()              
+S1.display()      
+    
