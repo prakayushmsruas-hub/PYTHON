@@ -14,6 +14,6 @@ import numpy as np
 marks=np.array([85,72,91,68,79])
 
 print(f"Sum: {np.sum(marks)}")
-print(f"Avg Marks: {np.average(marks)}")
+print(f"Avg Marks: {np.mean(marks)}")
 print(f"Highest Marks: {np.max(marks)}")
 print(f"Lowest Marks: {np.min(marks)}")
