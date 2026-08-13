@@ -9,3 +9,4 @@ arr = np.array([
 print(arr.shape)
 print(arr.ndim)
 print(arr.size)
+print(arr.dtype)
