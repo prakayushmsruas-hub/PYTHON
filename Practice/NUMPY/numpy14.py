@@ -19,3 +19,7 @@ print("Top 3 marks",np.sort(marks)[-3:])
 print("Lowest 3 marks",np.sort(marks)[:3])
 
 print(np.argsort(marks))
+
+
+arr = np.array([5, 10, 15, 20, 25])
+print(np.searchsorted(arr, 18))
