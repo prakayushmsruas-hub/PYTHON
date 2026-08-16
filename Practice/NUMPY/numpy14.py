@@ -17,3 +17,5 @@ print("Ascending",np.sort(marks))
 print("Descending",np.sort(marks)[::-1])
 print("Top 3 marks",np.sort(marks)[-3:])
 print("Lowest 3 marks",np.sort(marks)[:3])
+
+print(np.argsort(marks))
